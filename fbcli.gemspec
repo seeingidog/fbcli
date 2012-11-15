@@ -5,24 +5,41 @@
 
 Gem::Specification.new do |s|
   s.name = "fbcli"
-  s.version = "1.0.0"
+  s.version = "0.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ian Morgan"]
-  s.date = "2012-11-14"
+  s.date = "2012-11-15"
   s.description = "Command line interface to the Facebook graph API"
   s.email = "ian@ruby-code.com"
-  s.executables = ["fbcli"]
+  s.executables = ["fbcli", "fbcli"]
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
   ]
-  s.require_paths << 'lib'
-  s.files = `git ls-files`.split("\n")
-
+  s.files = [
+    ".document",
+    ".rspec",
+    "Gemfile",
+    "Gemfile.lock",
+    "LICENSE.txt",
+    "README.rdoc",
+    "Rakefile",
+    "VERSION",
+    "bin/fbcli",
+    "fbcli.gemspec",
+    "lib/fbcli.rb",
+    "lib/fbcli/actions.rb",
+    "lib/fbcli/cli.rb",
+    "lib/fbcli/configure.rb",
+    "lib/fbcli/constants.rb",
+    "lib/fbcli/formatters.rb",
+    "spec/fbcli_spec.rb",
+    "spec/spec_helper.rb"
+  ]
   s.homepage = "http://github.com/seeingidog/fbcli"
   s.licenses = ["MIT"]
-  s.require_paths = ["lib", 'lib/fbcli']
+  s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"
   s.summary = "Command line interface to the Facebook graph API"
 
