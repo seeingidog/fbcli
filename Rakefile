@@ -17,9 +17,12 @@ Jeweler::Tasks.new do |gem|
   gem.name = "fbcli"
   gem.homepage = "http://github.com/seeingidog/fbcli"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Command line interface to the Facebook graph API}
+  gem.description = %Q{Command line interface to the Facebook graph API}
   gem.email = "ian@ruby-code.com"
+  gem.default_executable = "fbcli"
+  gem.require_path = 'lib'
+  gem.executables << "fbcli"
   gem.authors = ["Ian Morgan"]
   # dependencies defined in Gemfile
 end
