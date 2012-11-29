@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ian Morgan"]
   s.date = "2012-11-29"
-  s.description = "Command line interface to the Facebook graph API"
+  s.description = "Command line interface to the Facebook graph API."
   s.email = "ian@ruby-code.com"
   s.executables = ["fbcli", "fbcli"]
   s.extra_rdoc_files = [
@@ -50,6 +50,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<koala>, [">= 0"])
       s.add_runtime_dependency(%q<commander>, [">= 0"])
       s.add_runtime_dependency(%q<awesome_print>, [">= 0"])
+      s.add_runtime_dependency(%q<multi_json>, ["= 1.3.7"])
       s.add_development_dependency(%q<rspec>, ["~> 2.8.0"])
       s.add_development_dependency(%q<rdoc>, ["~> 3.12"])
       s.add_development_dependency(%q<bundler>, [">= 0"])
@@ -60,6 +61,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<koala>, [">= 0"])
       s.add_dependency(%q<commander>, [">= 0"])
       s.add_dependency(%q<awesome_print>, [">= 0"])
+      s.add_dependency(%q<multi_json>, ["= 1.3.7"])
       s.add_dependency(%q<rspec>, ["~> 2.8.0"])
       s.add_dependency(%q<rdoc>, ["~> 3.12"])
       s.add_dependency(%q<bundler>, [">= 0"])
@@ -71,6 +73,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<koala>, [">= 0"])
     s.add_dependency(%q<commander>, [">= 0"])
     s.add_dependency(%q<awesome_print>, [">= 0"])
+    s.add_dependency(%q<multi_json>, ["= 1.3.7"])
     s.add_dependency(%q<rspec>, ["~> 2.8.0"])
     s.add_dependency(%q<rdoc>, ["~> 3.12"])
     s.add_dependency(%q<bundler>, [">= 0"])

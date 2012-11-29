@@ -18,7 +18,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/seeingidog/fbcli"
   gem.license = "MIT"
   gem.summary = %Q{Command line interface to the Facebook graph API}
-  gem.description = %Q{Command line interface to the Facebook graph API}
+  gem.description = %Q{Command line interface to the Facebook graph API.}
   gem.email = "ian@ruby-code.com"
   gem.default_executable = "fbcli"
   gem.require_path = 'lib'

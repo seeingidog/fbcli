@@ -3,6 +3,7 @@ source "http://rubygems.org"
 gem 'koala'
 gem 'commander'
 gem 'awesome_print'
+gem 'multi_json', "=1.3.7"
 
 
 group :development do
