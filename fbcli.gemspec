@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "fbcli"
-  s.version = "1.0.0"
+  s.version = "1.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ian Morgan"]
-  s.date = "2012-11-15"
+  s.date = "2012-11-29"
   s.description = "Command line interface to the Facebook graph API"
   s.email = "ian@ruby-code.com"
   s.executables = ["fbcli", "fbcli"]
@@ -55,6 +55,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<bundler>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.8.4"])
       s.add_development_dependency(%q<simplecov>, [">= 0"])
+      s.add_development_dependency(%q<wirble>, [">= 0"])
     else
       s.add_dependency(%q<koala>, [">= 0"])
       s.add_dependency(%q<commander>, [">= 0"])
@@ -64,6 +65,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<bundler>, [">= 0"])
       s.add_dependency(%q<jeweler>, ["~> 1.8.4"])
       s.add_dependency(%q<simplecov>, [">= 0"])
+      s.add_dependency(%q<wirble>, [">= 0"])
     end
   else
     s.add_dependency(%q<koala>, [">= 0"])
@@ -74,6 +76,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<bundler>, [">= 0"])
     s.add_dependency(%q<jeweler>, ["~> 1.8.4"])
     s.add_dependency(%q<simplecov>, [">= 0"])
+    s.add_dependency(%q<wirble>, [">= 0"])
   end
 end
 
