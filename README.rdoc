@@ -20,6 +20,11 @@ Obtain key here: https://developers.facebook.com/tools/explorer
   fbcli my_friends
 
 
+== Available Data
+
+  fbcli --help
+
+
 
 == Copyright
 

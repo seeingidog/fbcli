@@ -1,8 +1,4 @@
 #!/usr/bin/env ruby
 
-require 'rubygems'
-require 'bundler/setup'
-require 'commander/import'
-
 require File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib', 'fbcli'))
 

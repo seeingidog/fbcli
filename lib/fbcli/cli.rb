@@ -5,6 +5,15 @@ program :description, 'Facebook CLI Tool. Navigates the Social Graph.'
 program :help, 'Author', 'Ian Morgan <ian@ruby-code.com>'
 
 global_option('--json') { $json = true }
+default_command :welcome
+
+command :welcome do |c|
+  c.syntax = 'welcome'
+  c.description = "Welcomes user to application"
+  c.action do |arg|
+    puts "Commands to get started: configure, help"
+  end
+end
 
 command :configure do |c|
   c.syntax = 'configure'
